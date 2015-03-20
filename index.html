@@ -1,110 +1,49 @@
 <!doctype html>
 <html>
-    <head>
-    <title>Bootstrap Layouts</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    
-    
-    
-    </head>
-    <body>
-    <header class="navbar-default">
-    <div class="container-fluid">
-  <nav class="navbar navbar-default">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+<head>
+  <title>Sportalski.github.io</title>
+   <script src="../components/webcomponentsjs/webcomponents.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="import" href="collapse-toolbar.html">
+  <link rel="stylesheet" href="demo.css">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+</head>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    </header>
-   
-   
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-xs-12">
-      <div class="panel panel-primary">
-      <div class="panel-heading">Widzet1</div>
-      <div class="panel-body">
-      <a href="#" class="btn btn-primary">rob cos
+<body unresolved>
+  <collapse-toolbar query="max-width: 500px" class="dark-border">
+    <div flex class="logo">
+      <a href="link1.html">
+        <img src="logo.png">
       </a>
-      </div>
-      </div>
-      </div>
-      <div class="col-sm-3 col-xs-6">
-      <div class="panel panel-default">
-      <div class="panel-heading">Widzet2</div>
-      <div class="panel-body">
-      Panel content
-      </div>
-      </div>
-     </div>
-     </div>
-    
-    <div class="myPanel">
-      <div class="heading">Troche o mnie</div>
-      <div class="body">
-      <p>Troche</p>
-    <div class="showonhover">
-      <a href="" class="btn btn-danger">delete</a>
-      </div>
+    </div>
+    <a href="link3.html"><img src="github-logo.png"></a>
+    <a href="link2.html"><img src="bower-logo.png"></a>
+  </collapse-toolbar>
+  <div class="container banner-container">
+    <div class="banner" layout vertical center>
+<p>Ta strona bêdzie w niedalekiej przysz³oœci rozszerzana róznymi dodatkami oraz eksperymentami na GitHUB .</p>
+      <div layout flex horizontal>
       </div>
     </div>
-    
-    <div class="myPanel">
-      <div class="heading">my header</div>
-      <div class="body">
-      <p>bodyy</p>
-      <div class="showonhover">
-      <a href="" class="btn btn-danger">delete</a>
+  </div>
+  <div class="container quote-container">
+    <div class="quote" layout vertical center>
+Mam 22 lata i jestem studentem drugiego roku informatyki na Uniwersytecie Gdañskim. Ukoñczy³em Technikum Ekonomiczne w Olsztynie na profilu technik informatyk i z pozytywnym rezultatem zda³em egzamin zawodowy, wiêc swoj¹ karierê wi¹¿ê z informatyk¹ ju¿ od dawna. Zawodowo najbardziej lubiê programowaæ - mia³em stycznoœæ z takimi jêzykami jak Pascal, C/C++, Java, SQL. Prywatnie jestem fanem wszelkich sportów (g³ównie pi³ki no¿nej), muzyki oraz amerykañskich i brytyjskich seriali/filmów. Na bie¿¹co œledzê te¿ wydarzenia ze œwiata i nowinki technologiczne.
     </div>
-    </div>
-    </div>
-    
-    
-    <div class="myPanel">
-      <div class="heading">my header</div>
-      <div class="body">bodyy</div>
+  </div>
+  <div class="container blog-container">
+      <div class="myPanel">
+      <div class="heading">Tutaj znajduje siê LEAFLET</div>
+      <div class="body"></div>
           <div class="showonhover">
-      <a href="" class="btn btn-danger">delete</a>
+          <iframe src="http://leafletjs.com/examples/quick-start-example.html" width="550" height="220"></iframe>
     </div>
     </div>
-    
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    </body>
-    
-    </html>
+
+  </div>
+  
+      <script src="js/jquery.js"></script>
+</body>
+
+</html>
