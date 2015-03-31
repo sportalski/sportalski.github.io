@@ -4,7 +4,8 @@
 }
 
 body {
-  background: #13BFBC;
+    background-image: url('http://tapety.joe.pl/tapeta/science-fiction/kosmos/czarna-dziura.jpg');
+    background-color: #cccccc;
 }
 
 .logo img {
