@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+  <script src="../components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="collapse-toolbar.html">
+  <link rel="stylesheet" href="demo.css">
 
     <title>Portalski Sylwester </title>
 
@@ -32,6 +35,7 @@
 <body>
 
     <!-- Navigation -->
+    <collapse-toolbar query="max-width: 400px" class="dark-border">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,6 +66,7 @@
         </div>
         <!-- /.container -->
     </nav>
+    </collapse-toolbar>
 
 	<h1><br>Mapka:</h1>
 <div id="map" class="map" style="height: 400px">
